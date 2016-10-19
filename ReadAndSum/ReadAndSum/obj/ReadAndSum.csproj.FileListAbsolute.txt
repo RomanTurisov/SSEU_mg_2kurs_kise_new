@@ -1,0 +1,5 @@
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\ReadAndSum\ReadAndSum\bin\Debug\ReadAndSum.exe
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\ReadAndSum\ReadAndSum\bin\Debug\ReadAndSum.pdb
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\ReadAndSum\ReadAndSum\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\ReadAndSum\ReadAndSum\obj\Debug\ReadAndSum.exe
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\ReadAndSum\ReadAndSum\obj\Debug\ReadAndSum.pdb
