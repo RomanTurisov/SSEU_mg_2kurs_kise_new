@@ -8,24 +8,35 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            //ввод исохдных значений
             int A, B;
-            int.TryParse(Console.ReadLine(), out A);
-            int.TryParse(Console.ReadLine(), out B);
-            //максимальное значение
-            int Max;
-            //если больше А
-            if (A >= B)
+            if (int.TryParse(Console.ReadLine(), out A))
             {
-                Max = A;
+                if (int.TryParse(Console.ReadLine(), out B))
+                {
+                    //максимальное значение
+                    int Max;
+                    //если больше А
+                    if (A >= B)
+                    {
+                        Max = A;
+                    }
+                    //иначе - больше В
+                    else
+                    {
+                        Max = B;
+                    };
+                    //вывод результата
+                    Console.WriteLine("Максимальное = " + Max);
+                }
+                else
+                {
+                    Console.WriteLine("Неверное значение! Нужно ввести целое число.");
+                };
             }
-            //иначе - больше В
             else
             {
-                Max = B;
+                Console.WriteLine("Неверное значение! Нужно ввести целое число.");
             };
-            //вывод результата
-            Console.WriteLine("Максимальное = " + Max);
             //завершение программы
             Console.ReadKey();
         }
