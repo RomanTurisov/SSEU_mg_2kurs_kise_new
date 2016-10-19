@@ -11,37 +11,22 @@ namespace ConsoleApplication1
             int A, B, C;
             if (int.TryParse(Console.ReadLine(), out A)&& int.TryParse(Console.ReadLine(), out B) && int.TryParse(Console.ReadLine(), out C))
                 {
-                    //максимальное значение
-                    int Max;
-                //если A >= B
-                if (A >= B)
+                //максимальное значение
+                int Max;
+                //если больше остальных
+                if ((A >= B) && (A >= C))
                 {
-                    //и если A>= C
-                    if (A >= C)
-                    {
-                        Max = A;
-                    }
-                    //иначе - C >= A
-                    else
-                    {
-                        Max = C;
-                    }
+                    Max = A;
                 }
-                //иначе больше B
+                //иначе, если В больше остальных
+                else if ((B >= A) && (B >= C))
+                {
+                    Max = B;
+                }
+                //иначе остается C
                 else
                 {
-                    //и если B >= C
-                    if (B >= C)
-                    {
-                        //то максимальное - B
-                        Max = B;
-                    }
-                    //иначе - C > B
-                    else
-                    {
-                        //максимальное C
-                        Max = C;
-                    }
+                    Max = C;
                 };
                     //вывод результата
                     Console.WriteLine("Максимальное = " + Max);
