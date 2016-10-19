@@ -1,0 +1,5 @@
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\02_Maximum\02_Maximum\bin\Debug\02_Maximum.exe
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\02_Maximum\02_Maximum\bin\Debug\02_Maximum.pdb
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\02_Maximum\02_Maximum\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\02_Maximum\02_Maximum\obj\Debug\02_Maximum.exe
+C:\Users\turisov-ra\Desktop\VS 2005\1\SSEU_mg_2kurs_kise_new\02_Maximum\02_Maximum\obj\Debug\02_Maximum.pdb
