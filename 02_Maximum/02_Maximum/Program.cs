@@ -14,17 +14,7 @@ namespace ConsoleApplication1
                 if (int.TryParse(Console.ReadLine(), out B))
                 {
                     //максимальное значение
-                    int Max;
-                    //если больше А
-                    if (A >= B)
-                    {
-                        Max = A;
-                    }
-                    //иначе - больше В
-                    else
-                    {
-                        Max = B;
-                    };
+                    int Max = (A >= B) ? A : B;
                     //вывод результата
                     Console.WriteLine("Максимальное = " + Max);
                 }
