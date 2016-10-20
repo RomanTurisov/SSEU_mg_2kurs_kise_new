@@ -8,20 +8,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            int A, B;
-            if (int.TryParse(Console.ReadLine(), out A))
+            int A, B, C;
+            if (int.TryParse(Console.ReadLine(), out A) && int.TryParse(Console.ReadLine(), out B)
+                && int.TryParse(Console.ReadLine(), out C))
             {
-                if (int.TryParse(Console.ReadLine(), out B))
-                {
                     //максимальное значение
                     int Max = (A >= B) ? A : B;
+                    Max = (Max >= C) ? Max : C;
                     //вывод результата
                     Console.WriteLine("Максимальное = " + Max);
-                }
-                else
-                {
-                    Console.WriteLine("Неверное значение! Нужно ввести целое число.");
-                };
             }
             else
             {
