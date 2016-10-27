@@ -14,8 +14,9 @@ namespace SumOfNumbers
             if (int.TryParse(Console.ReadLine(), out N))
             {
                 int Sum = 0; //сумма чисел
+                int i = 0; //счетчик количества введенных
                 //N раз
-                for (int i = 0; i < N; i++)
+                while(i < N)
                 {
                     Console.Write("Введите число: ");
                     //если введено корректное число
@@ -25,11 +26,11 @@ namespace SumOfNumbers
                         /*DEBUG INFO
                         Console.WriteLine("{" + Sum + "}");
                         //*/
+                        i++;
                     }
                     else
                     {
                         Console.WriteLine("Неверное значение! Вводите целые числа!");
-                        i--;
                     };
                 };
                 //вывод результата
