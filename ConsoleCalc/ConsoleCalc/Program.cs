@@ -18,12 +18,31 @@ namespace ConsoleCalc
                 operation = Console.ReadLine();
                 switch (operation)
                 {
-                    case "+": result = operand1 + operand2; break;
-                    case "-": result = operand1 - operand2; break;
-                    case "*": result = operand1 * operand2; break;
-                    case "/": result = operand1 / operand2; break;
+                    //операци€ с двум€ операндами
+                    case "+":                        
+                    case "-":                        
+                    case "*":
+                    case "/":
+                        //считывааем второй операнд
+                        if (double.TryParse(Console.ReadLine(), out operand2))
+                        {
+                            //кака€ именно операци€
+                            switch (operation)
+                            {
+                                case "+": result = operand1 + operand2; break;
+                                case "-": result = operand1 - operand2; break;
+                                case "*": result = operand1 * operand2; break;
+                                case "/": result = operand1 / operand2; break;
+                            };
+                        }
+                        else
+                        {
+                            Console.WriteLine("ќперанд должен быть числом!");
+                        };
+                    //операции с одним операндом
                     case "sqrt": result = Math.Sqrt(operand1); break;
-                    default: Console.WriteLine("Ќеверна€ операци€!"); break;
+                    //недопустимые операции
+                    default: Console.WriteLine("Ќеверна€ операци€!"); Console.ReadKey(); return;
                 };
                 //выводим результат
                 Console.WriteLine(operand1 + " " + operation + " " + operand2 + " = " + result);
