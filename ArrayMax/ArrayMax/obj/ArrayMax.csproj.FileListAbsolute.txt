@@ -1,0 +1,5 @@
+C:\Users\user\Desktop\Универ\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ArrayMax\ArrayMax\bin\Debug\ArrayMax.exe
+C:\Users\user\Desktop\Универ\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ArrayMax\ArrayMax\bin\Debug\ArrayMax.pdb
+C:\Users\user\Desktop\Универ\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ArrayMax\ArrayMax\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\user\Desktop\Универ\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ArrayMax\ArrayMax\obj\Debug\ArrayMax.exe
+C:\Users\user\Desktop\Универ\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ArrayMax\ArrayMax\obj\Debug\ArrayMax.pdb
