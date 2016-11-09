@@ -29,17 +29,19 @@ namespace ArrayMax
                 else
                 {
                     Console.WriteLine("Введите целое число!");
-                }; ;
-                //поиск максимального значения
-                int max = a[0];
-                for (i = 1; i < a.Length; i++)
+                }; 
+            };
+            //поиск максимального значения
+            int max = a[0];
+            for (i = 1; i < a.Length; i++)
+            {
+                if (a[i] > max)
                 {
-                    if (a[i] > max)
-                    {
-                        max = a[i];
-                    };
+                    max = a[i];
                 };
             };
+            //вывод результата
+            Console.WriteLine("Максимальное значение: " + max);
             //выход из программы
             Console.ReadKey();
         }
