@@ -8,40 +8,34 @@ namespace ArrayMax
     {
         static void Main(string[] args)
         {
-            //ввод длины массива
             int n;
-            do
-            {
-                Console.WriteLine("Введите длину массива: ");
-            }
-            while (!int.TryParse(Console.ReadLine(), out n) || (n <= 0));
-            //инициализация массива
+            Console.Write("Введите длину массива: ");
+            int.TryParse(Console.ReadLine(), out n);
             int[] a = new int[n];
             //ввод значений массива
+            //поиск максимального значения
             int i = 0;
+            int max = int.MinValue;
+            int iMax = 0;
             while (i < n)
             {
-                Console.WriteLine("Введите а[" + i + "]: ");
+                Console.Write("Введите а[" + i + "]: ");
                 if (int.TryParse(Console.ReadLine(), out a[i]))
                 {
+                    if (a[i] > max)
+                    {
+                        max = a[i];
+                        iMax = i;
+                    };
                     i++;
                 }
                 else
                 {
                     Console.WriteLine("Введите целое число!");
-                }; 
-            };
-            //поиск максимального значения
-            int max = a[0];
-            for (i = 1; i < a.Length; i++)
-            {
-                if (a[i] > max)
-                {
-                    max = a[i];
                 };
             };
             //вывод результата
-            Console.WriteLine("Максимальное значение: " + max);
+            Console.Write("Максимальное значение: " + max);
             //выход из программы
             Console.ReadKey();
         }
