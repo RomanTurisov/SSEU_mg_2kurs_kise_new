@@ -1,0 +1,5 @@
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\FIO\FIO\bin\Debug\FIO.exe
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\FIO\FIO\bin\Debug\FIO.pdb
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\FIO\FIO\obj\Debug\ResolveAssemblyReference.cache
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\FIO\FIO\obj\Debug\FIO.exe
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\FIO\FIO\obj\Debug\FIO.pdb
