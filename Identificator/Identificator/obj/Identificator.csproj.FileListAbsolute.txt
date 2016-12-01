@@ -1,0 +1,5 @@
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Identificator\Identificator\bin\Debug\Identificator.exe
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Identificator\Identificator\bin\Debug\Identificator.pdb
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Identificator\Identificator\obj\Debug\ResolveAssemblyReference.cache
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Identificator\Identificator\obj\Debug\Identificator.exe
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Identificator\Identificator\obj\Debug\Identificator.pdb
