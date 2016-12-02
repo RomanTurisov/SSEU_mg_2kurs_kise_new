@@ -1,0 +1,5 @@
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ConsoleRectangle\ConsoleRectangle1\bin\Debug\ConsoleRectangle1.exe
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ConsoleRectangle\ConsoleRectangle1\bin\Debug\ConsoleRectangle1.pdb
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ConsoleRectangle\ConsoleRectangle1\obj\Debug\ResolveAssemblyReference.cache
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ConsoleRectangle\ConsoleRectangle1\obj\Debug\ConsoleRectangle1.exe
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\ConsoleRectangle\ConsoleRectangle1\obj\Debug\ConsoleRectangle1.pdb
