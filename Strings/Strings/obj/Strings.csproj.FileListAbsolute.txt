@@ -1,0 +1,10 @@
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\bin\Debug\Strings.exe
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\bin\Debug\Strings.pdb
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\obj\Debug\ResolveAssemblyReference.cache
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\obj\Debug\Strings.exe
+G:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\obj\Debug\Strings.pdb
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\obj\Debug\Strings.exe
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\obj\Debug\Strings.pdb
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\bin\Debug\Strings.exe
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\bin\Debug\Strings.pdb
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Strings\Strings\obj\Debug\ResolveAssemblyReference.cache
