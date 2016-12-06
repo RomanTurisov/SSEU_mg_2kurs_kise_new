@@ -1,0 +1,8 @@
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\bin\Debug\Student.exe
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\bin\Debug\Student.pdb
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\obj\Debug\ResolveAssemblyReference.cache
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\obj\Debug\Student.FormStudent.resources
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\obj\Debug\Student.Properties.Resources.resources
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\obj\Debug\Student.csproj.GenerateResource.Cache
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\obj\Debug\Student.exe
+H:\C флешки (второй курс)\VS 2005\1\SSEU_mg_2kurs_kise_new\Student\Student\obj\Debug\Student.pdb
