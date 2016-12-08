@@ -57,6 +57,7 @@ namespace Student
             this.checkBoxEkz3neyavka = new System.Windows.Forms.CheckBox();
             this.checkBoxEkz4neyavka = new System.Windows.Forms.CheckBox();
             this.checkBoxEkz5neyavka = new System.Windows.Forms.CheckBox();
+            this.buttonNaSledKurs = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownKurs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEkz1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEkz2)).BeginInit();
@@ -186,12 +187,12 @@ namespace Student
             // 
             // textBoxStudentInfo
             // 
-            this.textBoxStudentInfo.Location = new System.Drawing.Point(12, 334);
+            this.textBoxStudentInfo.Location = new System.Drawing.Point(16, 268);
             this.textBoxStudentInfo.Multiline = true;
             this.textBoxStudentInfo.Name = "textBoxStudentInfo";
             this.textBoxStudentInfo.ReadOnly = true;
             this.textBoxStudentInfo.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxStudentInfo.Size = new System.Drawing.Size(649, 198);
+            this.textBoxStudentInfo.Size = new System.Drawing.Size(647, 160);
             this.textBoxStudentInfo.TabIndex = 11;
             // 
             // comboBoxSemestr
@@ -417,11 +418,22 @@ namespace Student
             this.checkBoxEkz5neyavka.UseVisualStyleBackColor = true;
             this.checkBoxEkz5neyavka.CheckedChanged += new System.EventHandler(this.checkBoxEkz5neyavka_CheckedChanged);
             // 
+            // buttonNaSledKurs
+            // 
+            this.buttonNaSledKurs.Location = new System.Drawing.Point(16, 435);
+            this.buttonNaSledKurs.Name = "buttonNaSledKurs";
+            this.buttonNaSledKurs.Size = new System.Drawing.Size(113, 56);
+            this.buttonNaSledKurs.TabIndex = 16;
+            this.buttonNaSledKurs.Text = "Перевести на следующий курс";
+            this.buttonNaSledKurs.UseVisualStyleBackColor = true;
+            this.buttonNaSledKurs.Click += new System.EventHandler(this.buttonNaSledKurs_Click);
+            // 
             // FormStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 544);
+            this.ClientSize = new System.Drawing.Size(673, 504);
+            this.Controls.Add(this.buttonNaSledKurs);
             this.Controls.Add(this.groupBoxOzenki);
             this.Controls.Add(this.textBoxStudentInfo);
             this.Controls.Add(this.radioButtonCommerce);
@@ -481,6 +493,7 @@ namespace Student
         private System.Windows.Forms.CheckBox checkBoxEkz3neyavka;
         private System.Windows.Forms.CheckBox checkBoxEkz2neyavka;
         private System.Windows.Forms.CheckBox checkBoxEkz1neyavka;
+        private System.Windows.Forms.Button buttonNaSledKurs;
     }
 }
 
