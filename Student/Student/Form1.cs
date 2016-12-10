@@ -47,7 +47,28 @@ namespace Student
 
         private void radioButtonBudget_CheckedChanged(object sender, EventArgs e)
         {
-            student1.budget = radioButtonBudget.Checked;    //сохранить буджет/коммерческое
+            //если выбрано обучение на бюджете
+            if (radioButtonBudget.Checked)
+            {
+                //то создать бюджетника
+                student1 = new StudentBudg(student1);
+                //скрыть элементы для платников
+                labelStoimost.Visible = false;
+                numericUpDownStoimost.Visible = false;
+                numericUpDownSum.Visible = false;
+                buttonOplatit.Visible = false;
+            }
+            //иначе - обучение на коммерческой основе
+            else
+            {
+                //создать платника
+                student1 = new StudentPlat(student1);
+                //отобразить элементы для платников
+                labelStoimost.Visible = true;
+                numericUpDownStoimost.Visible = true;
+                numericUpDownSum.Visible = true;
+                buttonOplatit.Visible = true;
+            }
             textBoxStudentInfo.Text = student1.ToString();  //вывести на экран
         }
         private void textBoxGruppa_TextChanged(object sender, EventArgs e)
@@ -427,6 +448,28 @@ namespace Student
             //вывести на форму
             numericUpDownKurs.Value = student1.kurs;
             textBoxStudentInfo.Text = student1.ToString();
+        }
+
+        private void numericUpDownStoimost_ValueChanged(object sender, EventArgs e)
+        {
+            //проверка - если студент - платник
+            if (student1 is StudentPlat)
+            {
+                //то установить стоимость обучения
+                (student1 as StudentPlat).stoimostObucheniya = numericUpDownStoimost.Value;
+                textBoxStudentInfo.Text = student1.ToString(); //вывести на экран
+            }
+        }
+
+        private void buttonOplatit_Click(object sender, EventArgs e)
+        {
+            //проверка - если студент - платник
+            if (student1 is StudentPlat)
+            {
+                //то оплатить указанную сумму
+                (student1 as StudentPlat).OplataObuchenie(numericUpDownSum.Value);
+                textBoxStudentInfo.Text = student1.ToString(); //вывести на экран
+            }
         }
     }
 }
