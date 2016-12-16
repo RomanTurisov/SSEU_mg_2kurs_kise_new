@@ -509,6 +509,7 @@ namespace Student
             this.Controls.Add(this.labelFIO);
             this.Name = "FormStudent";
             this.Text = "Студент";
+            this.Load += new System.EventHandler(this.FormStudent_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownKurs)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEkz1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDownEkz2)).EndInit();
